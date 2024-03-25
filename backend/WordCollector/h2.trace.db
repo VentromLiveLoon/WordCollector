@@ -1,0 +1,3 @@
+2024-03-23 13:34:07.027836+08:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "EXPLAIN CHARACTER VARYING(255)": "U&'""Steer"" \\662f\\4e00\\4e2a\\52a8\\8bcd\\ff0c\\4e3b\\8981\\6709\\4e24\\4e2a\\542b\\4e49\\ff1... (281)"; SQL statement:
+insert into tb_word (explain,interpretation,prefix,root,subfix,word,id) values (?,?,?,?,?,?,?) [22001-224]
